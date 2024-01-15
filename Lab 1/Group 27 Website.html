@@ -2,7 +2,7 @@
 <html>
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=0.5">
-  <title> Our website~!</title>
+  <title>Lab 1 Questionnaire</title>
   <link rel="stylesheet" href="style.css"/>
 </head>
 
@@ -50,32 +50,39 @@
 
 
     <section class = "third">
-      <div class = "content">
-        <div class = "qna">
-          <h2>Questions</h2>
-          <br>
-          <br>
-          <h3>Q1: What do you think about the UI of Arngren? (In 5 words) </h3>
-            <h4>Answer: <br>
-              <textarea rows="5" cols="100"></textarea></h4>
-          <br>
-          <br>
-          <h3>Q2: Single-choice question (radio button)</h3>
-            <h4>Answer:<br>
-              <input type="radio" name="Color" value=" Red">Red<br>
-              <input type="radio" name="Color" value=" Green">Green<br>
-              <input type="radio" name="Color" value=" Blue">Blue<br></h4>
-          <br>
-          <br>
-          <h3>Q3: Single-choice question (list)</h3>
-            <h4>Answer:<br>
-          <select id="favorite">
-            <option value="Apples" selected="selected">Apples</option>
-            <option value="Oranges">Oranges</option>
-            <option value="Bananas">Bananas</option>
-          </select></h4>
-        </div>
-      </div>      
+          <div class = "content">
+            <div class = "qna">
+            <h2>Questions</h2>
+            <br>
+            <br>
+            <h3>Q1: What do you think of the User Interface of Arngren? (in 5 words)</h3>
+              <h4>Answer: <br>
+                 <textarea rows="5" cols="100"></textarea></h4>
+            <br>
+            <br>
+            <h3>Q2: Please evaluate the website's user interface on a scale of 1 to 5 points.</h3>
+              <h4>Answer:<br>
+                <input type="radio" name="Number" value=" 1">1<br>
+                <input type="radio" name="Number" value=" 2">2<br>
+                <input type="radio" name="Number" value=" 3">3<br>
+                <input type="radio" name="Number" value=" 4">4<br>
+                <input type="radio" name="Number" value=" 5">5<br></h4>
+            <br>
+            <br>
+            <h3>Q3: How many different colours do you see on this User Interface</h3>
+              <h4>Answer:<br>
+            <select id="favorite">
+              <option value="1" selected="selected">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="3">4</option>
+              <option value="3">5</option>
+              <option value="3">6</option>
+              <option value="3">7</option>
+              <option value="3">8</option>
+            </select></h4>
+          </div>
+        </div>      
     </section>
 
     <section class = "Fourth">
@@ -84,11 +91,17 @@
             <h2>Questions</h2>
             <br>
             <br>
-            <h3>Q4: Selection Question - can choose multiple options</h3>
+            <h3>Q4: Please check all the issues you have encountered with the website's user interface:</h3>
               <h4>Answer:<br>
-                <input type="checkbox" name="Color" value=" Red">Red<br>
-                <input type="checkbox" name="Color" value=" Green">Green<br>
-                <input type="checkbox" name="Color" value=" Blue">Blue<br></h4>
+                <input type="checkbox" name="Color">Confusing Navigation<br>
+                <input type="checkbox" name="Color">Cluttered Layout<br>
+                <input type="checkbox" name="Color">Unappealing Design<br>
+                <input type="checkbox" name="Color">Poor Responsiveness<br>
+                <input type="checkbox" name="Color">Inefficient search functionality<br>
+                <input type="checkbox" name="Color">Difficulty accessing information<br>
+                <input type="checkbox" name="Color">Other (please specify):<br>
+                <textarea rows="5" cols="100"></textarea></h4>
+              </h4>
             <br>
             <br>
             <h3>Q5: Any comments?</h3>
@@ -96,14 +109,16 @@
                  <textarea rows="5" cols="100"></textarea></h4>
             <br>
             <br>
+
+            <button id="submitButton" type="button" class="block">
+              SUBMIT
+            </button>
+            <br>
+            <p id="signature">Site created by Group 27</p>	
+            </h4> 
         </div>  
 
-        <button id="submitButton" type="button" class="block">
-          SUBMIT
-        </button>
-        <br>
-        <p id="signature">Site created by Group 27</p>	
-        </h4>     
+            
       </div>
 
         
