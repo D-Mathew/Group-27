@@ -150,9 +150,9 @@ nav ul li{
 .content a{
     text-decoration: None;
     display: inline-block;
-    font-size: 20px;
-    color: #fff;
-    border: 2px solid #ffffff;
+    font-size: 25px;
+    color: #3f6eb4;
+    border: 2px solid #2f44de;
     padding: 14px 70px;
     border-radius: 50px;
     margin-top: 20px;
